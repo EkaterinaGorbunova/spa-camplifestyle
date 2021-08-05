@@ -1,5 +1,5 @@
 import React from 'react'
-const banner = '/banner-anura.png'
+const banner = '/1.jpg'
 
 export const Banner = () => {
     return(
