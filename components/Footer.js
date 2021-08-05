@@ -88,7 +88,7 @@ const navigation = {
 export default function Footer() {
   return (
     <footer>
-      <div className='px-4 py-12 lg:py-24 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8'>
+      <div className='overflow-hidden py-12 px-4 mx-auto max-w-7xl sm:px-6 lg:py-24 lg:px-8'>
         <div className='flex justify-center mt-0 space-x-6'>
           {navigation.social.map((item) => (
             <a
@@ -99,7 +99,7 @@ export default function Footer() {
               className='text-indigo-200 hover:text-indigo-300'
             >
               <span className='sr-only'>{item.name}</span>
-              <item.icon className='w-8 h-8 md:h-9 md:w-9' aria-hidden='true' />
+              <item.icon className='w-8 h-8 md:w-9 md:h-9' aria-hidden='true' />
             </a>
           ))}
         </div>

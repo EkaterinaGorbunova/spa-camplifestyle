@@ -1,7 +1,7 @@
-import React from "react";
-import Head from "next/head";
-import "tailwindcss/tailwind.css";
-import App from "next/app";
+import React from 'react';
+import Head from 'next/head';
+import 'tailwindcss/tailwind.css';
+import App from 'next/app';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -9,8 +9,8 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Anura Dojo</title>
       </Head>
-      <div suppressHydrationWarning className="bg-black">
-        {typeof window === "undefined" ? null : <Component {...pageProps} />}
+      <div suppressHydrationWarning className='bg-black'>
+        {typeof window === 'undefined' ? null : <Component {...pageProps} />}
       </div>
     </>
   );

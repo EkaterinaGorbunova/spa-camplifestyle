@@ -53,16 +53,16 @@ function classNames(...classes) {
 export const Roadmap = () => {
   return (
     <div id='roadmap'>
-      <div className='max-w-7xl mx-auto px-4 sm:px-8 lg:px-8 py-14 lg:py-24'>
+      <div className='py-14 px-4 mx-auto max-w-7xl sm:px-8 lg:py-24 lg:px-8'>
         <div className='space-y-8 sm:space-y-12'>
-          <div className='space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl'>
-            <h2 className='text-2xl md:text-4xl font-inter text-center font-extrabold text-gray-100 uppercase'>
+          <div className='space-y-5 sm:mx-auto sm:space-y-4 sm:max-w-xl lg:max-w-5xl'>
+            <h2 className='text-2xl font-extrabold text-center text-gray-100 uppercase md:text-4xl font-inter'>
               Roadmap
             </h2>
           </div>
           <div
             aria-label='Progress'
-            className='flex flex-wrap items-center justify-center h-full px-4'
+            className='flex flex-wrap justify-center items-center px-4 h-full'
           >
             <ol className='overflow-hidden'>
               {steps.map((step, stepIdx) => (
@@ -77,24 +77,24 @@ export const Roadmap = () => {
                     <>
                       {stepIdx !== steps.length - 1 ? (
                         <div
-                          className='-ml-px absolute mt-0.5 top-4 left-4 w-0.5 h-full bg-indigo-600'
+                          className='absolute top-4 left-4 mt-0.5 -ml-px w-0.5 h-full bg-indigo-600'
                           aria-hidden='true'
                         />
                       ) : null}
                       <a
                         href={step.href}
-                        className='relative flex items-start group'
+                        className='flex relative items-start group'
                       >
-                        <span className='h-9 flex items-center'>
-                          <span className='relative z-10 w-8 h-8 flex items-center justify-center bg-indigo-600 rounded-full group-hover:bg-indigo-800'>
+                        <span className='flex items-center h-9'>
+                          <span className='flex relative z-10 justify-center items-center w-8 h-8 bg-indigo-600 rounded-full group-hover:bg-indigo-800'>
                             <CheckIcon
                               className='w-5 h-5 text-white'
                               aria-hidden='true'
                             />
                           </span>
                         </span>
-                        <span className='ml-4 min-w-0 flex flex-col'>
-                          <span className='m-1 text-md md:text-lg text-indigo-500 font-semibold tracking-wide uppercase'>
+                        <span className='flex flex-col ml-4 min-w-0'>
+                          <span className='m-1 font-semibold tracking-wide text-indigo-500 uppercase md:text-lg text-md'>
                             {step.name}
                           </span>
                           <span className='m-1 text-lg text-gray-400'>
@@ -107,25 +107,25 @@ export const Roadmap = () => {
                     <>
                       {stepIdx !== steps.length - 1 ? (
                         <div
-                          className='-ml-px absolute mt-0.5 top-4 left-4 w-0.5 h-full bg-gray-300'
+                          className='absolute top-4 left-4 mt-0.5 -ml-px w-0.5 h-full bg-gray-300'
                           aria-hidden='true'
                         />
                       ) : null}
                       <a
                         href={step.href}
-                        className='relative flex items-start group'
+                        className='flex relative items-start group'
                         aria-current='step'
                       >
                         <span
-                          className='h-9 flex items-center'
+                          className='flex items-center h-9'
                           aria-hidden='true'
                         >
-                          <span className='relative z-10 w-8 h-8 flex items-center justify-center bg-white border-2 border-indigo-600 rounded-full'>
-                            <span className='h-2.5 w-2.5 bg-indigo-600 rounded-full animate-pulse duration-500' />
+                          <span className='flex relative z-10 justify-center items-center w-8 h-8 bg-white rounded-full border-2 border-indigo-600'>
+                            <span className='w-2.5 h-2.5 bg-indigo-600 rounded-full duration-500 animate-pulse' />
                           </span>
                         </span>
-                        <span className='ml-4 min-w-0 flex flex-col'>
-                          <span className='m-1 text-md md:text-lg font-semibold tracking-wide uppercase text-indigo-500'>
+                        <span className='flex flex-col ml-4 min-w-0'>
+                          <span className='m-1 font-semibold tracking-wide text-indigo-500 uppercase md:text-lg text-md'>
                             {step.name}
                           </span>
                           <span className='m-1 text-lg text-gray-300'>
@@ -138,24 +138,24 @@ export const Roadmap = () => {
                     <>
                       {stepIdx !== steps.length - 1 ? (
                         <div
-                          className='-ml-px absolute mt-0.5 top-4 left-4 w-0.5 h-full bg-gray-300'
+                          className='absolute top-4 left-4 mt-0.5 -ml-px w-0.5 h-full bg-gray-300'
                           aria-hidden='true'
                         />
                       ) : null}
                       <a
                         href={step.href}
-                        className='relative flex items-start group'
+                        className='flex relative items-start group'
                       >
                         <span
-                          className='h-9 flex items-center'
+                          className='flex items-center h-9'
                           aria-hidden='true'
                         >
-                          <span className='relative z-10 w-8 h-8 flex items-center justify-center bg-white border-2 border-gray-300 rounded-full group-hover:border-gray-400'>
-                            <span className='h-2.5 w-2.5 bg-transparent rounded-full group-hover:bg-gray-300' />
+                          <span className='flex relative z-10 justify-center items-center w-8 h-8 bg-white rounded-full border-2 border-gray-300 group-hover:border-gray-400'>
+                            <span className='w-2.5 h-2.5 bg-transparent rounded-full group-hover:bg-gray-300' />
                           </span>
                         </span>
-                        <span className='ml-4 min-w-0 flex flex-col'>
-                          <span className='m-1 text-md md:text-lg font-semibold tracking-wide uppercase text-gray-500'>
+                        <span className='flex flex-col ml-4 min-w-0'>
+                          <span className='m-1 font-semibold tracking-wide text-gray-500 uppercase md:text-lg text-md'>
                             {step.name}
                           </span>
                           <span className='m-1 text-lg text-gray-400'>

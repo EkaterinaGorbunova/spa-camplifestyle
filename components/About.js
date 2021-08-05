@@ -3,12 +3,12 @@ import React from 'react';
 export const About = () => {
   return (
     <div id='about'>
-      <div className='flex flex-wrap items-center justify-center h-full py-12 lg:py-24'>
-        <div className='mx-auto text-center max-w-3xl min-h-5xl pb-8 md:pb-10'>
-          <h2 className='text-2xl md:text-4xl px-4 py-4 font-inter text-center font-extrabold text-gray-100 uppercase'>
+      <div className='flex flex-wrap justify-center items-center py-12 h-full lg:py-24'>
+        <div className='pb-8 mx-auto max-w-3xl text-center md:pb-10 min-h-5xl'>
+          <h2 className='py-4 px-4 text-2xl font-extrabold text-center text-gray-100 uppercase md:text-4xl font-inter'>
             Welcome to the anuran dojo
           </h2>
-          <p className='text-base md:text-lg px-4 pt-4 font-inter leading-tight text-center text-indigo-200'>
+          <p className='px-4 pt-4 text-base leading-tight text-center text-indigo-200 md:text-lg font-inter'>
             Ac euismod vel sit maecenas id pellentesque eu sed consectetur.
             Malesuada adipiscing sagittis vel nulla nec. Ac euismod vel sit
             maecenas id pellentesque eu sed consectetur. Malesuada adipiscing
@@ -18,38 +18,38 @@ export const About = () => {
             Malesuada adipiscing sagittis vel nulla nec.
           </p>
         </div>
-        <div className='w-full px-0 mx-auto my-auto'>
-          <section className='px-4 py-8'>
-            <div className='flex flex-wrap md:flex-nowrap justify-center -mx-4 -mb-8'>
-              <div className='w-4/6 px-4 mb-8 md:w-1/4'>
+        <div className='px-0 my-auto mx-auto w-full'>
+          <section className='py-8 px-4'>
+            <div className='flex flex-wrap justify-center -mx-4 -mb-8 md:flex-nowrap'>
+              <div className='px-4 mb-8 w-4/6 md:w-1/4'>
                 <img
                   className='mx-auto rounded shadow-md'
                   src='/NFT_Monk2-about.png'
                   alt='NFT_Monk2-about'
                 />
               </div>
-              <div className='w-4/6 px-4 mb-8 md:w-1/4'>
+              <div className='px-4 mb-8 w-4/6 md:w-1/4'>
                 <img
                   className='mx-auto rounded shadow-md'
                   src='/NFT_Monk3-about.png'
                   alt='NFT_Monk3-about'
                 />
               </div>
-              <div className='w-4/6 px-4 mb-8 md:w-1/4'>
+              <div className='px-4 mb-8 w-4/6 md:w-1/4'>
                 <img
                   className='mx-auto rounded shadow-md'
                   src='/NFT_Monk1-about.png'
                   alt='NFT_Monk1-about'
                 />
               </div>
-              <div className='w-4/6 px-4 mb-8 md:w-1/4'>
+              <div className='px-4 mb-8 w-4/6 md:w-1/4'>
                 <img
                   className='mx-auto rounded shadow-md'
                   src='/NFT_Monk4-about.png'
                   alt='NFT_Monk4-about'
                 />
               </div>
-              <div className='w-4/6 px-4 mb-8 md:w-1/4'>
+              <div className='px-4 mb-8 w-4/6 md:w-1/4'>
                 <img
                   className='mx-auto rounded shadow-md'
                   src='/NFT_Monk5-about.png'
