@@ -4,7 +4,7 @@ const navigation = {
   social: [
     {
       name: 'Facebook',
-      href: 'https://www.facebook.com/martovco/',
+      href: 'https://www.facebook.com/reseausepaq',
       target: '_blank', rel:'noopener',
       icon: function iconFacebook(props) {
         return (
@@ -21,7 +21,7 @@ const navigation = {
 
     {
       name: 'Instagram',
-      href: 'https://www.instagram.com/martovco/',
+      href: 'https://www.instagram.com/reseausepaq/?hl=en',
       target: '_blank', rel:'noopener',
       icon: function iconInstagram(props) {
         return (
@@ -38,7 +38,7 @@ const navigation = {
 
     {
       name: 'Twitter',
-      href: 'https://twitter.com/martovco',
+      href: 'https://twitter.com/reseausepaq?lang=en',
       target: '_blank', rel:'noopener',
       icon: function iconTwitter(props) {
         return (
@@ -51,7 +51,7 @@ const navigation = {
 
     {
       name: 'YouTube',
-      href: 'https://www.youtube.com/channel/UCd1d524DZ3o0Vns1Z7SyRLQ',
+      href: 'https://www.youtube.com/user/reseausepaq',
       target: '_blank', rel:'noopener',
       icon: function iconYouTube(props) {
         return (
@@ -68,7 +68,7 @@ const navigation = {
 
     {
       name: 'Discord',
-      href: ' https://discord.gg/GamcDW3',
+      href: '',
       target: '_blank', rel:'noopener',
       icon: function iconYouTube(props) {
         return (
@@ -88,7 +88,7 @@ const navigation = {
 export default function Footer() {
   return (
     <footer>
-      <div className='overflow-hidden py-12 px-4 mx-auto max-w-7xl sm:px-6 lg:py-24 lg:px-8'>
+      <div className='px-4 py-12 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:py-24 lg:px-8'>
         <div className='flex justify-center mt-0 space-x-6'>
           {navigation.social.map((item) => (
             <a

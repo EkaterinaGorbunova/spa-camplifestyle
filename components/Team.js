@@ -1,107 +1,95 @@
-import React from 'react';
+import React from "react";
 
 const people = [
   {
-    name: 'Michael Foster',
-    role: 'Co-Founder / CTO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    name: "Leslie Alexander",
+    role: "Co-Founder / CEO",
+    imageUrl: "/team/1.jpg",
   },
   {
-    name: 'Michael Foste1',
-    role: 'Co-Founder / CTO',
+    name: "Michael Foste",
+    role: "Co-Founder / CTO",
     imageUrl:
-      'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-  },
+    "/team/2.jpg",  },
   {
-    name: 'Michael Foster2',
-    role: 'Co-Founder / CTO',
+    name: "Dries Vincent",
+    role: "Content Specialist",
     imageUrl:
-      'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-  },
+    "/team/3.jpg",  },
   {
-    name: 'Michael Foster3',
-    role: 'Co-Founder / CTO',
+    name: "Tom Cook",
+    role: "Studio Artist",
     imageUrl:
-      'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-  },
+    "/team/4.jpg",  },
   {
-    name: 'Michael Foster4',
-    role: 'Co-Founder / CTO',
+    name: "Floyd Miles",
+    role: "Principal Designer",
     imageUrl:
-      'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-  },
+    "/team/5.jpg",  },
   {
-    name: 'Michael Foster5',
-    role: 'Co-Founder / CTO',
+    name: "Ah Kum",
+    role: "VP, Marketing",
     imageUrl:
-      'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-  },
+    "/team/6.jpg",  },
   {
-    name: 'Michael Foster6',
-    role: 'Co-Founder / CTO',
+    name: "Courtney Henry",
+    role: "Front-end Developer",
     imageUrl:
-      'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-  },
+    "/team/7.jpg",  },
   {
-    name: 'Michael Foster7',
-    role: 'Co-Founder / CTO',
+    name: "Lindsay Walton",
+    role: "Copywriter",
     imageUrl:
-      'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-  },
+    "/team/8.jpg",  },
   {
-    name: 'Michael Foster8',
-    role: 'Co-Founder / CTO',
+    name: "Whitney Francis",
+    role: "Senior Designer",
     imageUrl:
-      'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-  },
+    "/team/9.jpg",  },
   {
-    name: 'Michael Foster9',
-    role: 'Co-Founder / CTO',
+    name: "Emily Selman",
+    role: "VP, User Experience",
     imageUrl:
-      'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-  },
+    "/team/10.jpg",  },
   {
-    name: 'Michael Foster10',
-    role: 'Co-Founder / CTO',
+    name: "Benjamin Russel",
+    role: "Software Developer",
     imageUrl:
-      'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-  },
+    "/team/11.jpg",  },
   {
-    name: 'Michael Foster11',
-    role: 'Co-Founder / CTO',
+    name: "Michael Foster11",
+    role: "Back-end Developer",
     imageUrl:
-      'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-  },
+    "/team/12.jpg",  },
 ];
 
 export const Team = () => {
   return (
-    <div id='team'>
-      <div className='py-14 px-4 mx-auto max-w-7xl text-center sm:px-6 lg:py-24 lg:px-8'>
-        <div className='space-y-8 sm:space-y-12'>
-          <div className='space-y-5 sm:mx-auto sm:space-y-4 sm:max-w-xl lg:max-w-5xl'>
-            <h2 className='text-2xl font-extrabold text-center text-gray-100 uppercase md:text-4xl font-inter'>
+    <div id="team">
+      <div className="px-4 mx-auto text-center py-14 max-w-7xl sm:px-6 lg:py-24 lg:px-8">
+        <div className="space-y-8 sm:space-y-12">
+          <div className="space-y-5 sm:mx-auto sm:space-y-4 sm:max-w-xl lg:max-w-5xl">
+            <h2 className="text-2xl font-extrabold text-center text-gray-100 uppercase md:text-4xl font-inter">
               Meat the team
             </h2>
-            <p className='px-4 text-xl leading-normal text-center text-gray-500'>
-              Risus velit condimentum vitae tincidunt tincidunt. Mauris
-              ridiculus fusce amet urna nunc. Ut nisl ornare diam in.
+            <p className="px-4 text-xl leading-normal text-center text-gray-500">
+              We are unstoppable adventures who love nature and sitting around a
+              campfire late at hight
             </p>
           </div>
-          <ul className='grid grid-cols-2 gap-x-4 gap-y-8 mx-auto sm:grid-cols-4 md:gap-x-6 lg:gap-x-8 lg:gap-y-12 lg:max-w-5xl xl:grid-cols-6'>
+          <ul className="grid grid-cols-2 mx-auto gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:gap-x-8 lg:gap-y-12 lg:max-w-5xl xl:grid-cols-6">
             {people.map((person) => (
               <li key={person.name}>
-                <div className='space-y-4'>
+                <div className="space-y-4">
                   <img
-                    className='mx-auto w-20 h-20 rounded-full lg:w-24 lg:h-24'
+                    className="w-20 h-20 mx-auto rounded-full lg:w-24 lg:h-24"
                     src={person.imageUrl}
-                    alt=''
+                    alt=""
                   />
-                  <div className='space-y-2'>
-                    <div className='text-xs leading-normal text-center lg:text-sm font-inter'>
-                      <h3 className='text-gray-500'>{person.name}</h3>
-                      <p className='text-gray-200'>{person.role}</p>
+                  <div className="space-y-2">
+                    <div className="text-xs leading-normal text-center lg:text-sm font-inter">
+                      <h3 className="text-gray-200">{person.name}</h3>
+                      <p className="text-gray-500">{person.role}</p>
                     </div>
                   </div>
                 </div>

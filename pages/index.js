@@ -4,8 +4,8 @@ import React from 'react';
 import { TopNavbar } from '../components/TopNavbar';
 import { Banner } from '../components/Banner'
 import { About } from '../components/About';
-import { TraitsAndSpecies } from '../components/TraitsAndSpecies';
-import { Community } from '../components/Community';
+import { Relax } from '../components/Relax';
+import { DeStress } from '../components/DeStress';
 import { Roadmap } from '../components/Roadmap';
 import { Team } from '../components/Team';
 import Footer from '../components/Footer';
@@ -16,8 +16,8 @@ export default function App() {
       <TopNavbar />
       <Banner />
       <About />
-      <TraitsAndSpecies />
-      <Community />
+      <Relax />
+      <DeStress />
       <Roadmap />
       <Team />
       <Footer />      

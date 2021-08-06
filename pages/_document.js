@@ -8,6 +8,7 @@ class MyDocument extends Document {
           <meta charSet='utf-8' />
           <meta name='description' content='Anura Dojo - NFT project by Martov Co' />
           <meta name='theme-color' content='#317EFB' />
+          <link rel='icon' href='/favicon.ico?v=2' />
         </Head>
         <body>
           <Main />

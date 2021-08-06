@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Anura Dojo</title>
+        <title>CampLifestyle</title>
       </Head>
       <div suppressHydrationWarning className='bg-black'>
         {typeof window === 'undefined' ? null : <Component {...pageProps} />}
