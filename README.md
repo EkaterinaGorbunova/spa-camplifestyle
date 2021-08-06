@@ -6,8 +6,6 @@ This project was created using `npx create-next-app -e with-tailwindcss` boilerp
 1. Install all dependencies
 
 ```bash
-npm install
-# or
 yarn install
 ```
 2. Run in dev environment
