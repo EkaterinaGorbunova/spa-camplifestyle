@@ -104,7 +104,7 @@ export default function Footer() {
           ))}
         </div>
         <p className='mt-8 text-base text-center text-indigo-200'>
-          &copy; {new Date().getFullYear()} Martov Co, Inc. All rights reserved
+          &copy; {new Date().getFullYear()} CampLifestyle Co, Inc. All rights reserved
         </p>
       </div>
     </footer>
