@@ -72,7 +72,7 @@ export const TopNavbar = () => {
                       <>
                         <div>
                           <a
-                            href="https://metamask.io/"
+                            href="#"
                             target="_blank"
                             className="inline-flex items-center px-12 py-2 text-sm font-normal text-white uppercase bg-green-600 border border-transparent rounded-md hover:bg-green-700"
                           >
@@ -133,7 +133,7 @@ export const TopNavbar = () => {
                   <Menu.Item>
                     <div className="px-4">
                       <a
-                        href="https://metamask.io/"
+                        href="#"
                         target="_blank"
                         className="px-2 py-1 text-sm font-normal text-white uppercase bg-green-600 rounded-md hover:bg-green-700 focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-none"
                       >
