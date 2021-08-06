@@ -1,17 +1,17 @@
 import React from "react";
-const banner = "/banner.png";
+const banner = "/banner.jpg";
 
 export const Banner = () => {
   return (
     <>
       <div className="relative w-full h-full">
         <img
-          className="relative object-cover object-center h-screen bg-black"
+          className="relative object-cover object-center w-screen h-screen bg-black"
           src={banner}
           alt="banner"
         />
+        <div class="absolute inset-0 z-20 flex items-center justify-center h-screen w-full bg-gray-900 bg-opacity-50"></div>
       </div>
-      <div class="absolute inset-0 z-20 flex items-center justify-center h-screen w-full bg-gray-900 bg-opacity-50"></div>
       <div
         data-aos="flip-down"
         class="absolute inset-0 z-30 container flex flex-col items-center justify-center h-full max-w-7xl pl-0 mx-auto sm:pl-8 xl:pl-0 md:flex-row md:justify-between"
@@ -25,7 +25,7 @@ export const Banner = () => {
               <span class="text-red-500">and Stress Less</span>
             </h1>
             <p class="text-gray-400 text-sm lg:text-4xl lg:text-center font-sans italic">
-            Camping LifeStyle
+              Camping LifeStyle
             </p>
           </div>
         </div>
