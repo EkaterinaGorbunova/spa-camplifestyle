@@ -15,4 +15,4 @@ yarn install
 yarn dev
 ```
 
-3. See the [Demo](https://camplifestyle.netlify.app)
+## See the [Demo](https://camplifestyle.netlify.app)
