@@ -73,7 +73,6 @@ export const TopNavbar = () => {
                         <div>
                           <a
                             href="#"
-                            target="_blank"
                             className="inline-flex items-center px-12 py-2 text-sm font-normal text-white uppercase bg-green-600 border border-transparent rounded-md hover:bg-green-700"
                           >
                             <span className="sr-only">MINT</span>
@@ -115,12 +114,12 @@ export const TopNavbar = () => {
                   </Menu.Item>
                   <Menu.Item>
                     <a href="#community" className={styles.linkNavMobile}>
-                    De-Stress
+                      De-Stress
                     </a>
                   </Menu.Item>
                   <Menu.Item>
                     <a href="#roadmap" className={styles.linkNavMobile}>
-                    Roadtrip
+                      Roadtrip
                     </a>
                   </Menu.Item>
                   <Menu.Item>
@@ -134,7 +133,6 @@ export const TopNavbar = () => {
                     <div className="px-4">
                       <a
                         href="#"
-                        target="_blank"
                         className="px-2 py-1 text-sm font-normal text-white uppercase bg-green-600 rounded-md hover:bg-green-700 focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-none"
                       >
                         <span className="sr-only">MINT</span>

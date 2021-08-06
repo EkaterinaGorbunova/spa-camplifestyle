@@ -6,35 +6,41 @@ const steps = [
     name: 'Parc national de la Yamaska, QC',
     description: '07-09 May 2021',
     href: 'https://www.sepaq.com/en/reservation/camping/parc-national-de-la-yamaska',
+    target: "_blank",
     status: 'complete',
   },
   {
     name: 'Parc national du Mont-Tremblant, QC',
     description: '22-24 May 2021',
     href: 'https://www.sepaq.com/en/reservation/camping/parc-national-du-mont-tremblant',
+    target: "_blank",
     status: 'complete',
   },
   {
     name: 'Parc national de Frontenac, QC',
     description: '10-13 Jun 2021',
     href: 'https://www.sepaq.com/en/reservation/camping/parc-national-de-frontenac',
+    target: "_blank",
     status: 'complete',
   },
   {
     name: 'Parc national du Mont-Orford, QC',
     description: '02-04 Jul 2021',
     href: 'https://www.sepaq.com/en/reservation/camping/parc-national-du-mont-orford',
+    target: "_blank",
     status: 'complete',
   },
   {
     name: 'Centre touristique du Lac-Simon, QC',
     description: '21-26 Jul 2021',
     href: 'https://www.sepaq.com/en/reservation/camping/centre-touristique-du-lac-simon',
+    target: "_blank",
     status: 'complete',
   },
   {
     name: 'Sandbanks Provincial Park, ON',
     description: '08-14 Aug 2021',
+    target: "_blank",
     href: '#',
     status: 'current',
   },
@@ -42,12 +48,14 @@ const steps = [
     name: 'Parc national du Mont-Tremblant, QC',
     description: '03-06 Sep 2021',
     href: 'https://www.sepaq.com/en/reservation/camping/parc-national-du-mont-tremblant',
+    target: "_blank",
     status: 'upcoming',
   },
   {
     name: 'Parc national de la Jacques-Cartier, QC',
     description: '08-11 Oct 2021',
     href: 'https://www.sepaq.com/en/reservation/camping/parc-national-de-la-jacques-cartier',
+    target: "_blank",
     status: 'upcoming',
   },
 ];
@@ -89,6 +97,7 @@ export const Roadmap = () => {
                       ) : null}
                       <a
                         href={step.href}
+                        target={step.target}
                         className='relative flex items-start group'
                       >
                         <span className='flex items-center h-9'>
@@ -119,6 +128,7 @@ export const Roadmap = () => {
                       ) : null}
                       <a
                         href={step.href}
+                        target={step.target}
                         className='relative flex items-start group'
                         aria-current='step'
                       >
@@ -150,6 +160,7 @@ export const Roadmap = () => {
                       ) : null}
                       <a
                         href={step.href}
+                        target={step.target}
                         className='relative flex items-start group'
                       >
                         <span

@@ -68,8 +68,9 @@ const navigation = {
 
     {
       name: 'Discord',
-      href: '',
-      target: '_blank', rel:'noopener',
+      href: '#',
+      // target: '_blank',
+      rel:'noopener',
       icon: function iconYouTube(props) {
         return (
           <svg fill='currentColor' viewBox='0 0 30 24' {...props}>
