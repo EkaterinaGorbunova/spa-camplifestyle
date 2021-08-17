@@ -42,14 +42,14 @@ const steps = [
     description: '08-14 Aug 2021',
     target: "_blank",
     href: '#',
-    status: 'current',
+    status: 'complete',
   },
   {
     name: 'Parc national du Mont-Tremblant, QC',
     description: '03-06 Sep 2021',
     href: 'https://www.sepaq.com/en/reservation/camping/parc-national-du-mont-tremblant',
     target: "_blank",
-    status: 'upcoming',
+    status: 'current',
   },
   {
     name: 'Parc national de la Jacques-Cartier, QC',
