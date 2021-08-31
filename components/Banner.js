@@ -10,21 +10,21 @@ export const Banner = () => {
           src={banner}
           alt="banner"
         />
-        <div class="absolute inset-0 z-20 flex items-center justify-center h-screen w-full bg-gray-900 bg-opacity-50"></div>
+        <div className="absolute inset-0 z-20 flex items-center justify-center w-full h-screen bg-gray-900 bg-opacity-50"></div>
       </div>
       <div
         data-aos="flip-down"
-        class="absolute inset-0 z-30 container flex flex-col items-center justify-center h-full max-w-7xl pl-0 mx-auto sm:pl-8 xl:pl-0 md:flex-row md:justify-between"
+        className="container absolute inset-0 z-30 flex flex-col items-center justify-center h-full pl-0 mx-auto max-w-7xl sm:pl-8 xl:pl-0 md:flex-row md:justify-between"
       >
-        <div class="flex flex-col items-center justify-center mx-auto uppercase">
-          <div class="relative text-center p-2">
-            <h1 class="text-white relative mb-4 text-4xl font-bold font-sans italic leading-none text-center md:text-7xl lg:text-8xl">
+        <div className="flex flex-col items-center justify-center mx-auto uppercase">
+          <div className="relative p-2 text-center">
+            <h1 className="relative mb-4 font-sans text-4xl italic font-bold leading-none text-center text-white md:text-7xl lg:text-8xl">
               {" "}
               Relax in Nature
               <br />
-              <span class="text-red-500">and Stress Less</span>
+              <span className="text-red-500">and Stress Less</span>
             </h1>
-            <p class="text-gray-400 text-sm lg:text-4xl lg:text-center font-sans italic">
+            <p className="font-sans text-sm italic text-gray-400 lg:text-4xl lg:text-center">
               Camping LifeStyle
             </p>
           </div>

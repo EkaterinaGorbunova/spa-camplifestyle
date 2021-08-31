@@ -10,7 +10,7 @@ export const DeStress = () => {
           <h2 className="text-2xl font-extrabold text-center text-gray-100 uppercase md:text-4xl font-inter">
             De-stress
           </h2>
-          <p className="text-lg leading-tight text-left text-indigo-200 md:text-2xl font-inter">
+          <div className="text-lg leading-tight text-left text-indigo-200 md:text-2xl font-inter">
             <ul>
               <li>
                 <span className="font-bold text-gray-300">
@@ -38,7 +38,7 @@ export const DeStress = () => {
                 campfire at night.{" "}
               </li>
             </ul>
-          </p>
+          </div>
         </div>
         <div className="max-w-lg p-6 text-gray-100 max-h-md md:max-w-3xl">
           <img
