@@ -70,7 +70,7 @@ export const Team = () => {
         <div className="space-y-8 sm:space-y-12">
           <div className="space-y-5 sm:mx-auto sm:space-y-4 sm:max-w-xl lg:max-w-5xl">
             <h2 className="text-2xl font-extrabold text-center text-gray-100 uppercase md:text-4xl font-inter">
-              Meat the team
+              Meet the team
             </h2>
             <p className="px-4 text-xl leading-normal text-center text-gray-500">
               We are unstoppable adventures who love nature and sitting around a
