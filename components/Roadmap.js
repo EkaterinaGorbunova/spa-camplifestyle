@@ -52,9 +52,9 @@ const steps = [
     status: "complete",
   },
   {
-    name: "Parc national de la Jacques-Cartier, QC",
+    name: "Parc national de la Yamaska, QC",
     description: "08-11 Oct 2021",
-    href: "https://www.sepaq.com/en/reservation/camping/parc-national-de-la-jacques-cartier",
+    href: "https://www.sepaq.com/en/reservation/camping/parc-national-de-la-yamaska",
     target: "_blank",
     status: "current",
   },
